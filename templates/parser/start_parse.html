@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Получить данные</button>
+</div>
+</form>
+<div>
+   <a href="/kivano_list_parser/">Список товаров kivano.kg</a>
+</div>
+<div>
+   <a href="/faberlic_list_parser/">Список товаров faberlic.com</a>
+</div>
+</body>
+</html>
